@@ -1,0 +1,29 @@
+name: aniPortraitGAN
+channels:
+  - pytorch
+  - conda-forge
+  - pytorch3d
+dependencies:
+  - python >= 3.8
+  - pip
+  - numpy
+  - pillow
+  - scipy
+  - pytorch=1.12.0
+  - torchvision=0.13.0
+  - cudatoolkit=11.3
+  - fvcore
+  - iopath
+  - pytorch3d
+  - pip:
+    - scipy
+    - pillow
+    - imageio
+    - imageio-ffmpeg
+    - scikit-image
+    - tqdm
+    - easydict
+    - opencv-python
+    - kornia
+    - pytorch3d
+    - smplx[all]
