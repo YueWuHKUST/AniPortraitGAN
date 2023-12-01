@@ -84,6 +84,10 @@ The generated videos is controlled by the keyframes of expression, pose and came
 | Camera | [N, 2] | Camera yaw and pitch angles
 
 
+## Dataset
+Since our dataset is build on SHHQ dataset. We are still negotiating with SHHQ dataset team for an appropriate way to release the dataset.
+
+
 ## Citation
 
 Please cite the following paper if this work helps your research:
