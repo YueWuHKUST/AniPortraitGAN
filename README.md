@@ -4,7 +4,7 @@ This is a pytorch implementation of the following paper:
 
 Yue Wu*, Sicheng Xu*, Jianfeng Xiang, Fangyun Wei, Qifeng Chen, Jiaolong Yang, Xin Tong. **AniPortraitGAN: Animatable 3D Portrait Generation from 2D Image Collections**, SIGGRAPH Asia 2023.
 
-### [Project page](https://yuewuhkust.github.io/AniPortraitGAN/) | [Paper](https://arxiv.org/abs/2309.02186) | [Video](https://www.youtube.com/watch?v=AMCm8kgfeqc) ###
+### [Project page](https://yuewuhkust.github.io/AniPortraitGAN/) | [Paper](https://arxiv.org/abs/2309.02186) | [Video](https://www.youtube.com/watch?v=DM6mCQ03umc) ###
 
 ![teaser](./assets/teaser.jpg)
 
@@ -85,8 +85,35 @@ The generated videos is controlled by the keyframes of expression, pose and came
 
 
 ## Dataset
-Since our dataset is build on SHHQ dataset. We are still negotiating with SHHQ dataset team for an appropriate way to release the dataset.
+###  SHHQ-HS Dataset
+SHHQ-HS is built upon the SHHQ [2] dataset. We provide processed head-shoulder images at the resolusion of 512x512, and some labels used in our paper (e.g., camera pose, SMPL joint pose and shape parameters, 3DMM identity and expression coefficients). Cropped face images are also provided.
 
+### Download Instructions
+1. To obtain SHHQ-HS, you need first apply for SHHQ dataset, following [their instructions](https://github.com/stylegan-human/StyleGAN-Human/blob/main/docs/Dataset.md#download-instructions).
+2. After completing the application for the SHHQ dataset, please forward the application email thread to Yue wu(wu.kathrina@gmail.com), with the email subject as "Application for SHHQ-HS Dataset". We will verify your request and contact you with the dataset link.
+
+### References
+Please cite the following papers if you use this dataset:
+
+[1] 
+``````
+@inproceedings{yue2023aniportraitgan,
+    title     = {AniPortraitGAN: Animatable 3D Portrait Generation from 2D Image Collections},
+    author    = {Wu, Yue and Xu, Sicheng and Xiang, Jianfeng and Wei, Fangyun and Chen, Qifeng and Yang, Jiaolong and Tong, Xin},
+    booktitle = {SIGGRAPH Asia 2023 Conference Proceedings},
+    year      = {2023}
+}
+``````
+
+[2]
+``````
+@article{fu2022styleganhuman,
+title={StyleGAN-Human: A Data-Centric Odyssey of Human Generation}, 
+author={Fu, Jianglin and Li, Shikai and Jiang, Yuming and Lin, Kwan-Yee and Qian, Chen and Loy, Chen-Change and Wu, Wayne and Liu, Ziwei},
+journal   = {arXiv preprint},
+volume    = {arXiv:2204.11823},
+year    = {2022}
+``````
 
 ## Citation
 
