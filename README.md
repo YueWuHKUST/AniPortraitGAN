@@ -92,10 +92,9 @@ SHHQ-HS is built upon the SHHQ [2] dataset. We provide processed head-shoulder i
 1. To obtain SHHQ-HS, you need first apply for SHHQ dataset, following [their instructions](https://github.com/stylegan-human/StyleGAN-Human/blob/main/docs/Dataset.md#download-instructions).
 2. After completing the application for the SHHQ dataset, please forward the application email thread to Yue wu(wu.kathrina@gmail.com), with the email subject as "Application for SHHQ-HS Dataset". We will verify your request and contact you with the dataset link.
 
-### References
-Please cite the following papers if you use this dataset:
+## Citation
+Please cite the our paper if this work helps your research:
 
-[1] 
 ``````
 @inproceedings{yue2023aniportraitgan,
     title     = {AniPortraitGAN: Animatable 3D Portrait Generation from 2D Image Collections},
@@ -105,7 +104,7 @@ Please cite the following papers if you use this dataset:
 }
 ``````
 
-[2]
+If you use the SHHQ-HS dataset, please also cite:
 ``````
 @article{fu2022styleganhuman,
 title={StyleGAN-Human: A Data-Centric Odyssey of Human Generation}, 
@@ -113,17 +112,4 @@ author={Fu, Jianglin and Li, Shikai and Jiang, Yuming and Lin, Kwan-Yee and Qian
 journal   = {arXiv preprint},
 volume    = {arXiv:2204.11823},
 year    = {2022}
-``````
-
-## Citation
-
-Please cite the following paper if this work helps your research:
-
-```
-@inproceedings{yue2023aniportraitgan,
-    title     = {AniPortraitGAN: Animatable 3D Portrait Generation from 2D Image Collections},
-    author    = {Wu, Yue and Xu, Sicheng and Xiang, Jianfeng and Wei, Fangyun and Chen, Qifeng and Yang, Jiaolong and Tong, Xin},
-    booktitle = {SIGGRAPH Asia 2023 Conference Proceedings},
-    year      = {2023}
-}
 ``````
